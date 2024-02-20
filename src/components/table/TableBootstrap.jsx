@@ -34,7 +34,8 @@ export const TableBootstrap = () => {
         <tr>
           <th scope="col">Number</th>
           <th scope="col">Time</th>
-          <th scope="col">Angle</th>
+          <th scope="col">Current Angle</th>
+          <th scope="col">Target Angle</th>
           <th scope="col">Sound</th>
           <th scope="col">Command</th>
         </tr>
@@ -43,10 +44,11 @@ export const TableBootstrap = () => {
         {data.map((item, index) => (
           <tr key={index}>
             <th>{index + 1}</th>
-            <td style={{ width: '400px' }}>{formatTime(item.time)}</td>
+            <td >{formatTime(item.time)}</td>
             <td>{item.currentangle}</td>
+            <td>{item.targetangle}</td>
             <td>{item.prediction}</td>
-            <td style={{ width: '300px' }}>{item.command ? item.command : 'N/A'}</td>
+            <td >{item.command}</td>
           </tr>
         ))}
       </tbody>

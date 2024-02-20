@@ -7,6 +7,7 @@ import Search from './components/search/Search';
 import { TableBootstrap } from "./components/table/TableBootstrap";
 import { Time } from "./components/time/Time";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Target } from './components/target/Target';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <div className='display'>
             <Time />
             <Angle />
+            <Target />
             <Sound />
             <Command />
           </div>
