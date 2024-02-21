@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Final_audio_app/static/css/main.6cc04e01.css",
+    "main.js": "/Final_audio_app/static/js/main.4e3743a2.js",
+    "static/js/787.792ce551.chunk.js": "/Final_audio_app/static/js/787.792ce551.chunk.js",
+    "static/media/background.jpg": "/Final_audio_app/static/media/background.9c601c97c18dfb0e82a1.jpg",
+    "index.html": "/Final_audio_app/index.html",
+    "main.6cc04e01.css.map": "/Final_audio_app/static/css/main.6cc04e01.css.map",
+    "main.4e3743a2.js.map": "/Final_audio_app/static/js/main.4e3743a2.js.map",
+    "787.792ce551.chunk.js.map": "/Final_audio_app/static/js/787.792ce551.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cc04e01.css",
+    "static/js/main.4e3743a2.js"
+  ]
+}
