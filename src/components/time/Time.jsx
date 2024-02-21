@@ -17,7 +17,7 @@ export const Time = () => {
 
     useEffect(() => {
         getTime();
-    }, [myTime]);
+    });
 
     const formatTime = (time) => {
         return moment(time).format('YYYY-MM-DD HH:mm:ss');

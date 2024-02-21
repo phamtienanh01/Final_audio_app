@@ -15,7 +15,7 @@ export const Angle = () => {
 
     useEffect(() => {
         getAngle();
-    }, []); // Empty dependency array to run the effect only once
+    }); // Empty dependency array to run the effect only once
 
     return (
         <div>

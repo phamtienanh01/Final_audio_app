@@ -22,7 +22,7 @@ export const TableBootstrap = () => {
 
   useEffect(() => {
     getData();
-  }, []);
+  });
 
   const formatTime = (time) => {
     return moment(time).format('YYYY-MM-DD HH:mm:ss');

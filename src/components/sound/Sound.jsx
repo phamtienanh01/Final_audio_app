@@ -16,7 +16,7 @@ export const Sound = () => {
 
     useEffect(() => {
         getSound();
-    }, [mySound]);
+    });
 
     return (
         <div>
